@@ -1,0 +1,73 @@
+﻿Build started 21-11-2016 12:04:27.
+     1>Project "C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Assignment2_OTG_HTTPServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CMain.cpp CServerSocket.cpp
+         CMain.cpp
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cmain.cpp(72): warning C4101: 'hStdout' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cmain.cpp(73): warning C4101: 'dwChars' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         CServerSocket.cpp
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(91): warning C4101: 'sin_size' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(90): warning C4101: 'client_addr' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(259): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(360): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(363): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(366): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(389): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(395): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(417): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(439): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(458): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(469): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(473): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(486): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(489): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(492): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(627): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(630): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(674): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(215): warning C4101: 'nCheckParameter' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(856): warning C4101: 'unLastPosition' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(855): warning C4101: 'unStartPosition' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(857): warning C4101: 'chRequestedResourceContentLength' : unreferenced local variable
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(1095): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(1119): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(1139): warning C4172: returning address of local variable or temporary
+         Generating Code...
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(1050): warning C4715: 'CServerSocket::GetRequestedResource' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Debug\Assignment2_OTG_HTTPServer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /MANIFEST /ManifestFile:"Debug\Assignment2_OTG_HTTPServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Debug\Assignment2_OTG_HTTPServer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Debug\Assignment2_OTG_HTTPServer.lib" /MACHINE:X86 Debug\CMain.obj
+         Debug\CServerSocket.obj
+         LINK : C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Debug\Assignment2_OTG_HTTPServer.exe not found or not built by the last incremental link; performing full link
+         Assignment2_OTG_HTTPServer.vcxproj -> C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Debug\Assignment2_OTG_HTTPServer.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Debug\Assignment2_OTG_HTTPServer.exe;#1" /manifest Debug\Assignment2_OTG_HTTPServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assignment2_OTG_HTTPServer.unsuccessfulbuild".
+         Touching "Debug\Assignment2_OTG_HTTPServer.lastbuildstate".
+     1>Done Building Project "C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.83

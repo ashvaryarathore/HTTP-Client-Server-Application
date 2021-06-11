@@ -1,0 +1,68 @@
+﻿Build started 21-11-2016 13:44:24.
+     1>Project "C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Assignment2_OTG_HTTPServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CServerSocket.cpp
+         CServerSocket.cpp
+     1>CServerSocket.cpp(93): warning C4101: 'sin_size' : unreferenced local variable
+     1>CServerSocket.cpp(92): warning C4101: 'client_addr' : unreferenced local variable
+     1>CServerSocket.cpp(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CServerSocket.cpp(370): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(373): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CServerSocket.cpp(376): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(399): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CServerSocket.cpp(405): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(428): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CServerSocket.cpp(450): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>CServerSocket.cpp(469): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(480): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(484): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(497): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(500): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(503): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>CServerSocket.cpp(641): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CServerSocket.cpp(644): warning C4018: '<=' : signed/unsigned mismatch
+     1>CServerSocket.cpp(688): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CServerSocket.cpp(218): warning C4101: 'nCheckParameter' : unreferenced local variable
+     1>CServerSocket.cpp(870): warning C4101: 'unLastPosition' : unreferenced local variable
+     1>CServerSocket.cpp(869): warning C4101: 'unStartPosition' : unreferenced local variable
+     1>CServerSocket.cpp(871): warning C4101: 'chRequestedResourceContentLength' : unreferenced local variable
+     1>CServerSocket.cpp(1109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CServerSocket.cpp(1133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CServerSocket.cpp(1153): warning C4172: returning address of local variable or temporary
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Release\Assignment2_OTG_HTTPServer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib /MANIFEST /ManifestFile:"Release\Assignment2_OTG_HTTPServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Release\Assignment2_OTG_HTTPServer.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Release\Assignment2_OTG_HTTPServer.lib" /MACHINE:X86 Release\CMain.obj
+         Release\CServerSocket.obj
+         Generating code
+     1>c:\users\aishvarya.rathore\documents\visual studio 2010\projects\assignment2_otg_httpserver\assignment2_otg_httpserver\cserversocket.cpp(1064): warning C4715: 'CServerSocket::GetRequestedResource' : not all control paths return a value
+         Finished generating code
+         Assignment2_OTG_HTTPServer.vcxproj -> C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Release\Assignment2_OTG_HTTPServer.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Release\Assignment2_OTG_HTTPServer.exe;#1" /manifest Release\Assignment2_OTG_HTTPServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Assignment2_OTG_HTTPServer.unsuccessfulbuild".
+         Touching "Release\Assignment2_OTG_HTTPServer.lastbuildstate".
+     1>Done Building Project "C:\Users\aishvarya.rathore\documents\visual studio 2010\Projects\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer\Assignment2_OTG_HTTPServer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35
